@@ -1,0 +1,79 @@
+/* universal selector */
+* {
+    border: 1px solid red;
+    color: darkgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* type selector */
+h2 {
+    color: darkorchid;
+    text-align: center;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+/* id selector */
+#about p {
+    /* color: cornflowerblue; */
+}
+
+/* class selector */
+.about-header {
+text-align: center;
+}
+
+/* pseudo classes */
+.list-skills li a:hover {
+    background-color: cyan;
+    color: darkmagenta;
+}
+
+/* header */
+#photo-profile {
+    /* margin: auto; */
+    /* width: 50px; */
+    /* text-align: center; */
+}
+
+header h2 {
+    text-align: center;
+    text-transform: uppercase;
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+    padding: 10px 10px 10px 10px;
+
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: darkmagenta; */
+
+    border: 5px dashed darkmagenta;
+
+
+    /* margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px; */
+
+    margin: 10px 40px 20px 40px;
+}
+
+/* about section */
+#about {
+    /* margin: auto;
+    width: 80%; */
+}
+#about p {
+    text-align: center;
+}
+
+/* General Style */
+a {
+    text-decoration: none;
+}
